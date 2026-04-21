@@ -11,6 +11,6 @@ sudo rm -rf ~/zapret-discord-youtube-linux/zapret-latest/lists/list-general.txt
 cp ~/scriptslinux/zapret/lists/list-general.txt ~/zapret-discord-youtube-linux/zapret-latest/lists
 cp ~/scriptslinux/zapret/conf.env ~/zapret-discord-youtube-linux/
 cd ~/zapret-discord-youtube-linux
-./service.sh
-sleep 2
-xdotool key 1
+./service.sh <<EOF
+2
+EOF
